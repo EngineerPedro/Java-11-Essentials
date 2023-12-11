@@ -4,34 +4,31 @@ import java.time.LocalDateTime;
 public class Main {
     public static void main(String[] args) {
 
-        var now = LocalDateTime.now();
+        String[] months =
+                {"January", "February", "March",
+                        "April", "May", "June",
+                        "July", "August", "September",
+                        "October", "November", "December"};
 
-        var monthNumber = now.getMonthValue();
+//        for (int i = 0; i < months.length; i++) {
+//            System.out.println(months[i]);
+//        }
 
-        switch (monthNumber) {
-            case 1:
-                System.out.println("The month is January");
-                break;
+//        for (var month : months) {
+//            System.out.println(month);
+//        }
 
-            case 2:
-                System.out.println("The month is February");
-                break;
+//        var whileCounter = 0;
+//        while (whileCounter < months.length) {
+//            System.out.println(months[whileCounter]);
+//            whileCounter++;
+//        }
 
-            case 3:
-                System.out.println("The month is March");
-                break;
-
-            case 9:
-
-            case 10:
-
-            case 11:
-                System.out.println("It's the 4th quarter");
-                break;
-
-            default:
-                System.out.println("You chose another month");
-        }
+        var doCounter = 0;
+        do {
+            System.out.println(months[doCounter]);
+            doCounter++;
+        } while (doCounter < months.length);
 
     }
 }
