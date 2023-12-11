@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="4.8 Parse string values">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="4.9 Get string values from user input" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,7 @@
       <updated>1701448125609</updated>
       <workItem from="1701448126801" duration="9984000" />
       <workItem from="1702253519930" duration="23000" />
-      <workItem from="1702253592603" duration="3316000" />
+      <workItem from="1702253592603" duration="3693000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -153,7 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702256891251</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="4.8 Parse string values">
+      <option name="closed" value="true" />
+      <created>1702261507711</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702261507711</updated>
+    </task>
+    <task id="LOCAL-00013" summary="4.9 Get string values from user input">
+      <option name="closed" value="true" />
+      <created>1702261634514</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702261634514</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +203,7 @@
     <MESSAGE value="4.6 Interpolate strings with place holders" />
     <MESSAGE value="4.7 compare string values" />
     <MESSAGE value="4.8 Parse string values" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.8 Parse string values" />
+    <MESSAGE value="4.9 Get string values from user input" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.9 Get string values from user input" />
   </component>
 </project>
