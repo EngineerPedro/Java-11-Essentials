@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="5.2 Evaluate conditions with switch-case">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="5.5 create overload methods" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,7 @@
       <updated>1701448125609</updated>
       <workItem from="1701448126801" duration="9984000" />
       <workItem from="1702253519930" duration="23000" />
-      <workItem from="1702253592603" duration="7875000" />
+      <workItem from="1702253592603" duration="8389000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -217,7 +215,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702265198714</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="5.3 Creat looping code">
+      <option name="closed" value="true" />
+      <created>1702306979724</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702306979724</updated>
+    </task>
+    <task id="LOCAL-00021" summary="5.4 Create reusable code">
+      <option name="closed" value="true" />
+      <created>1702307246378</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1702307246378</updated>
+    </task>
+    <task id="LOCAL-00022" summary="5.5 create overload methods">
+      <option name="closed" value="true" />
+      <created>1702307389620</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1702307389620</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,17 +279,9 @@
     <MESSAGE value="4.11 Simple Calculator" />
     <MESSAGE value="5.1 Evaluate conditions with if - else" />
     <MESSAGE value="5.2 Evaluate conditions with switch-case" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.2 Evaluate conditions with switch-case" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="5.3 Creat looping code" />
+    <MESSAGE value="5.4 Create reusable code" />
+    <MESSAGE value="5.5 create overload methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.5 create overload methods" />
   </component>
 </project>
