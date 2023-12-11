@@ -1,19 +1,19 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        var s1 = "Welcome to California!";
-        System.out.println("length of string: " + s1.length());
+        var scanner = new Scanner(System.in);
 
-        int position = s1.indexOf("California");
-        System.out.println("The position is " + position);
+        System.out.print("Enter a value: ");
+        var input = scanner.nextLine();
+        System.out.println(input);
 
-        var sub = s1.substring(11);
-        System.out.println(sub);
+        System.out.print("Enter number 1: ");
+        var number1 = scanner.nextInt();
+        System.out.print("Enter number 2: ");
+        var number2 = scanner.nextInt();
 
-        String s2 = "Welcome!      ";
-        var len = s2.length();
-        System.out.println(len);
-        var trimmed = s2.trim();
-        System.out.println(trimmed.length());
+        var sum = number1 + number2;
+        System.out.println("The sum is " + sum);
     }
 }
