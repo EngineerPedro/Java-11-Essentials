@@ -1,18 +1,26 @@
 import java.util.Scanner;
+import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
+//        var scanner = new Scanner(System.in);
+//        System.out.print("Enter a month number (1-12): ");
+//        var monthNumber = scanner.nextInt();
 
-        var sc = new Scanner(System.in);
+        var now = LocalDateTime.now();
+        var monthNumber = now.getMonthValue();
 
-        System.out.print("Enter a numeric value: ");
-        var d1 = sc.nextDouble();
-
-        System.out.print("Enter a numeric value: ");
-        var d2 = sc.nextDouble();
-
-        double result = d1 / d2;
-
-        System.out.println("The answer is " + result);
+        String message;
+//        if (monthNumber < 1 || monthNumber > 12) {
+//            message = "That isn't a valid month!";
+//        } else
+        if (monthNumber <= 3) {
+            message = "That's in Quarter 1!";
+        } else if (monthNumber <= 6) {
+            message = "That's in Quarter 2!";
+        } else {
+            message = "That isn't the first half of the year";
+        }
+        System.out.println(message);
     }
 }
