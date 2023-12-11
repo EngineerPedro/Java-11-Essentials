@@ -2,9 +2,13 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome " +  args[0] + "!");
 
+        var sb = new StringBuilder("Welcome");
+        sb.append(" to California!")
+                .append("M")
+                .append(", Qty: ")
+                .append(4);
+        var s2 = sb.toString();
+        System.out.println(s2);
     }
 }
