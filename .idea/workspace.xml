@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="5.1 Evaluate conditions with if - else">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="5.2 Evaluate conditions with switch-case" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +61,7 @@
       <updated>1701448125609</updated>
       <workItem from="1701448126801" duration="9984000" />
       <workItem from="1702253519930" duration="23000" />
-      <workItem from="1702253592603" duration="5341000" />
+      <workItem from="1702253592603" duration="5658000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -194,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702263657015</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="5.2 Evaluate conditions with switch-case">
+      <option name="closed" value="true" />
+      <created>1702264265200</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702264265200</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +238,7 @@
     <MESSAGE value="4.9 Get string values from user input" />
     <MESSAGE value="4.11 Simple Calculator" />
     <MESSAGE value="5.1 Evaluate conditions with if - else" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.1 Evaluate conditions with if - else" />
+    <MESSAGE value="5.2 Evaluate conditions with switch-case" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.2 Evaluate conditions with switch-case" />
   </component>
 </project>
