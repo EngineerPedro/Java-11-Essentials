@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="4.2 Building a string with multiple values">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="4.4 Convert Primitive values to strings" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,7 @@
       <updated>1701448125609</updated>
       <workItem from="1701448126801" duration="9984000" />
       <workItem from="1702253519930" duration="23000" />
-      <workItem from="1702253592603" duration="1341000" />
+      <workItem from="1702253592603" duration="1696000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -89,15 +87,41 @@
       <option name="project" value="LOCAL" />
       <updated>1702253364936</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4.4 Convert Primitive values to strings">
+      <option name="closed" value="true" />
+      <created>1702255773043</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702255773043</updated>
+    </task>
+    <task id="LOCAL-00005" summary="4.4 Convert Primitive values to strings">
+      <option name="closed" value="true" />
+      <created>1702255905579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702255905579</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="0a2a549b-de04-4266-8790-4d85533e9446" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
+        <entry key="0a2a549b-de04-4266-8790-4d85533e9446">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
@@ -110,6 +134,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="2.6 Pass arguments to a console application" />
     <MESSAGE value="4.2 Building a string with multiple values" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.2 Building a string with multiple values" />
+    <MESSAGE value="4.4 Convert Primitive values to strings" />
+    <option name="LAST_COMMIT_MESSAGE" value="4.4 Convert Primitive values to strings" />
   </component>
 </project>
