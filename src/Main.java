@@ -1,30 +1,15 @@
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-import java.util.Locale;
 
-// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
-// then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        var doubleValue = 10_000_000.53;
+        var item = "Shirt";
+        var size = "M";
+        var price = 14.99;
+        var color = "Red";
 
-        var numF = NumberFormat.getNumberInstance();
-        System.out.println("Number: " + numF.format(doubleValue));
+        var template = "Clothing item: %s, size %s, color %s, $%.2f";
+        var itemString = String.format(template,
+                item, size, color, price);
+        System.out.println(itemString);
 
-        var intF = NumberFormat.getIntegerInstance();
-        System.out.println("Number: " + intF.format(doubleValue));
-
-        intF.setGroupingUsed(false);
-        System.out.println("Number: " + intF.format(doubleValue));
-
-        var locale = new Locale("de", "DE");
-        var localeFormatter = NumberFormat.getNumberInstance(locale);
-        System.out.println("Number: " + localeFormatter.format(doubleValue));
-
-        var currencyFormatter = NumberFormat.getCurrencyInstance();
-        System.out.println(currencyFormatter.format(doubleValue));
-
-        var df = new DecimalFormat("$00.00");
-        System.out.println(df.format(1));
     }
 }
