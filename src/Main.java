@@ -3,24 +3,35 @@ import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
-//        var scanner = new Scanner(System.in);
-//        System.out.print("Enter a month number (1-12): ");
-//        var monthNumber = scanner.nextInt();
 
         var now = LocalDateTime.now();
+
         var monthNumber = now.getMonthValue();
 
-        String message;
-//        if (monthNumber < 1 || monthNumber > 12) {
-//            message = "That isn't a valid month!";
-//        } else
-        if (monthNumber <= 3) {
-            message = "That's in Quarter 1!";
-        } else if (monthNumber <= 6) {
-            message = "That's in Quarter 2!";
-        } else {
-            message = "That isn't the first half of the year";
+        switch (monthNumber) {
+            case 1:
+                System.out.println("The month is January");
+                break;
+
+            case 2:
+                System.out.println("The month is February");
+                break;
+
+            case 3:
+                System.out.println("The month is March");
+                break;
+
+            case 9:
+
+            case 10:
+
+            case 11:
+                System.out.println("It's the 4th quarter");
+                break;
+
+            default:
+                System.out.println("You chose another month");
         }
-        System.out.println(message);
+
     }
 }
