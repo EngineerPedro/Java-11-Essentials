@@ -3,32 +3,20 @@ import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
+        var sc = new Scanner(System.in);
 
-        String[] months =
-                {"January", "February", "March",
-                        "April", "May", "June",
-                        "July", "August", "September",
-                        "October", "November", "December"};
+        double d1 = getInput(sc, "Enter numeric value 1: ");
 
-//        for (int i = 0; i < months.length; i++) {
-//            System.out.println(months[i]);
-//        }
+        double d2 = getInput(sc, "Enter numeric value 2: ");
 
-//        for (var month : months) {
-//            System.out.println(month);
-//        }
+        double result = d1 / d2;
 
-//        var whileCounter = 0;
-//        while (whileCounter < months.length) {
-//            System.out.println(months[whileCounter]);
-//            whileCounter++;
-//        }
-
-        var doCounter = 0;
-        do {
-            System.out.println(months[doCounter]);
-            doCounter++;
-        } while (doCounter < months.length);
-
+        System.out.println("The answer is " + result);
     }
+
+    private static double getInput(Scanner sc, String prompt) {
+        System.out.print(prompt);
+        return sc.nextDouble();
+    }
+
 }
