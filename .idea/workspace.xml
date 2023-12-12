@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="6.3 Create multiple catch blocks">
-      <change afterPath="$PROJECT_DIR$/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalcHelper.java" afterDir="false" />
+    <list default="true" id="ca7facdb-989c-4f3d-b2f2-da87b6357542" name="Changes" comment="7.2 Organize code with packages">
+      <change afterPath="$PROJECT_DIR$/src/model/ClothingItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utilities/CalcHelper.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/plguz/IdeaProjects/Java 11 Essentials",
+    "last_opened_file_path": "C:/Users/plguz/IdeaProjects/Java 11 Essentials/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\plguz\IdeaProjects\Java 11 Essentials\src" />
       <recent name="C:\Users\plguz\IdeaProjects\Java 11 Essentials" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -89,7 +90,7 @@
       <updated>1701448125609</updated>
       <workItem from="1701448126801" duration="9984000" />
       <workItem from="1702253519930" duration="23000" />
-      <workItem from="1702253592603" duration="14526000" />
+      <workItem from="1702253592603" duration="17916000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <option name="closed" value="true" />
@@ -299,7 +300,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702315945354</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="7.1 Declare and use custom classes">
+      <option name="closed" value="true" />
+      <created>1702405313317</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702405313317</updated>
+    </task>
+    <task id="LOCAL-00028" summary="7.2 Organize code with packages">
+      <option name="closed" value="true" />
+      <created>1702405566093</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1702405566093</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,6 +361,8 @@
     <MESSAGE value="5.5 create overload methods" />
     <MESSAGE value="6.2 Handle exceptions with try catch" />
     <MESSAGE value="6.3 Create multiple catch blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.3 Create multiple catch blocks" />
+    <MESSAGE value="7.1 Declare and use custom classes" />
+    <MESSAGE value="7.2 Organize code with packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.2 Organize code with packages" />
   </component>
 </project>
